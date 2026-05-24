@@ -1,0 +1,21 @@
+import seaborn as sns
+import matplotlib.pyplot as plt 
+import pandas as pd
+import numpy as np
+
+df=pd.read_csv(r"C:\Users\asus\Downloads\retail_sales_dataset.csv")
+
+df['date']=pd.to_datetime(df['date'])
+
+print(df.describe())
+
+print(df[['sales', 'customers', 'discount']].skew())
+
+sns.histplot(df['sales'])
+plt.show()
+sns.kdeplot(df['sales'])
+plt.show()
+
+plt.scatter(df['sales'],df['customers'])
+plt.show()
+
