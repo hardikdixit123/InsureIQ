@@ -22,16 +22,16 @@ streamlit run app.py
 ## Screenshots
 
 ### Dashboard Overview
-![Dashboard](screenshots/dashboard-overview.png)
+![Dashboard](screenshots/dashboard-overview.jpeg)
 
 ### Patient Details Input
-![Patient Input](screenshots/patient-details-input.png)
+![Patient Input](screenshots/patient-details-input.jpeg)
 
 ### Risk Prediction Results
-![Risk Prediction](screenshots/risk-prediction-results.png)
+![Risk Prediction](screenshots/risk-prediction-results.jpeg)
 
 ### Premium Calculation Breakdown
-![Premium Breakdown](screenshots/premium-calculation-breakdown.png)
+![Premium Breakdown](screenshots/premium-calculation-breakdown.jpeg)
 
 
 ## Model Performance
