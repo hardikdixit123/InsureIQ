@@ -19,6 +19,20 @@ python insurance_pipeline.py
 # 3. Launch the UI
 streamlit run app.py
 ```
+## Screenshots
+
+### Dashboard Overview
+![Dashboard](screenshots/dashboard-overview.png)
+
+### Patient Details Input
+![Patient Input](screenshots/patient-details-input.png)
+
+### Risk Prediction Results
+![Risk Prediction](screenshots/risk-prediction-results.png)
+
+### Premium Calculation Breakdown
+![Premium Breakdown](screenshots/premium-calculation-breakdown.png)
+
 
 ## Model Performance
 | Model | Metric | Score |
